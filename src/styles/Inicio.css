@@ -1,0 +1,13 @@
+@import '../index.css'; /* Importa las variables de colores */
+
+.inicio-container {
+  padding: 20px; /* Espaciado opcional */
+}
+
+.inicio-title {
+  color: var(--color-primary); /* Usa el naranja (#FF9F00) de index.css */
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left; /* Alineación a la izquierda */
+  margin: 0; /* Elimina márgenes por defecto del h1 */
+}

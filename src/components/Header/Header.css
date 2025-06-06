@@ -1,0 +1,33 @@
+@import '../../index.css'; /* Importa las variables de colores */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--color-dark); /* #1E2A47 */
+  color: var(--color-white); /* #FFFFFF */
+}
+
+.header-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--color-primary); /* #FF9F00 */
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-link:hover {
+  color: var(--color-primary); /* #FF9F00 al hacer hover */
+}
